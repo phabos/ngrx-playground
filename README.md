@@ -1,27 +1,18 @@
-# Ngrx
+# Ngrx playground
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+Test d'utilisation de NgRX. L'application permet d'ajouter des post / modifier des posts et de lister des posts.
+L'idée est de brancher les différents composants angular à un store global contenant les posts.
 
-## Development server
+## Utilisation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Depuis la racine du dossier, faire un
+````ng serve --port 3001```
 
-## Code scaffolding
+Lancer json server
+````json-server db.json --watch```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Ressources
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[Le guide pour bien démarrer avec ngrx — Partie 1](https://medium.com/@nioperas06/le-guide-pour-bien-d%C3%A9marrer-avec-ngrx-partie-1-7d18d3172269)
+[Création d’une application ANGULAR avec NGRX (PATTERN REDUX)](https://medium.com/code-divoire/cr%C3%A9ation-dune-application-angular-avec-ngrx-pattern-redux-845f9ac7606e)
+[la doc officielle](https://ngrx.io/)

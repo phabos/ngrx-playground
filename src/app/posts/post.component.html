@@ -1,0 +1,11 @@
+<div>
+    <p>Liste des articles: </p>
+    <ul>
+        <li *ngFor="let post of (posts$ | async).posts">{{post.id}}: {{post.title}} <button (click)="show(post)">show</button> | <button (click)="edit(post)">edit</button></li>
+    </ul>
+</div>
+<div>
+    <app-post-detail *ngIf="displayDetail"></app-post-detail>
+</div>
+<button (click)="toggleForm()">{{!displayForm ? 'Add' : 'Cancel' }}</button>
+<app-post-add *ngIf="displayForm" (displayForm)='hideForm($event)'></app-post-add>

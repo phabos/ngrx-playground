@@ -1,0 +1,15 @@
+<form [formGroup]="articleForm" (ngSubmit)="onSubmit()">
+    <input type="hidden" formControlName="id" [value]="(posts$ | async)?.currentPost?.id">
+    <div>
+        <label>title :<br/>
+            <input type="text" name="title" formControlName="title" [value]="(posts$ | async)?.currentPost?.title" />
+        </label>
+    </div>
+    <div>
+        <label>description :<br/>
+            <textarea name="description" formControlName="description" [value]="(posts$ | async)?.currentPost?.description"></textarea>
+        </label>
+    </div>
+    <input type="submit" name="Submit" />
+    <button reset-btn (click)="resetForm($event)">Reset</button>
+</form>

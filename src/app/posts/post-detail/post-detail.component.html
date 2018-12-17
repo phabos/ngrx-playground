@@ -1,0 +1,8 @@
+<div *ngIf="(posts$ | async).currentPost != null">
+    <p>
+        {{(posts$ | async).currentPost?.id}}: {{(posts$ | async).currentPost?.title}}
+    </p>
+    <p>
+        {{(posts$ | async).currentPost?.description}}
+    </p>
+</div>
