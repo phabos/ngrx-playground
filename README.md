@@ -6,10 +6,10 @@ L'idée est de brancher les différents composants angular à un store global co
 ## Utilisation
 
 Depuis la racine du dossier, faire un    
-````ng serve --port 3001```    
+``ng serve --port 3001``    
 
 Lancer json server    
-````json-server db.json --watch```    
+``json-server db.json --watch``    
 
 ## Ressources
 
