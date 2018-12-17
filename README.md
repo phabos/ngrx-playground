@@ -1,6 +1,6 @@
 # Ngrx playground
 
-Test d'utilisation de NgRX. L'application permet d'ajouter des post / modifier des posts et de lister des posts.    
+Test d'utilisation de NgRX. L'application permet d'ajouter / modifier / lister des posts.    
 L'idée est de brancher les différents composants angular à un store global contenant les posts.
 
 ## Utilisation
