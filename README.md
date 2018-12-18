@@ -3,6 +3,10 @@
 Test d'utilisation de NgRX. L'application permet d'ajouter / modifier / lister des posts.    
 L'idée est de brancher les différents composants angular à un store global contenant les posts.
 
+## Install
+
+Run ``npm install``    
+
 ## Utilisation
 
 Depuis la racine du dossier, faire un    
