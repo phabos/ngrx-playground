@@ -5,7 +5,8 @@ L'idée est de brancher les différents composants angular à un store global co
 
 ## Install
 
-Run ``npm install``    
+Run    
+``npm install``    
 
 ## Utilisation
 
