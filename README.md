@@ -4,6 +4,8 @@ Test d'utilisation de NgRX. L'application permet d'ajouter / modifier / lister d
 L'idée est de brancher les différents composants angular à un store global contenant les posts.
 
 ## Install
+Installer json-server globallement    
+``npm install -g json-server``    
 
 Run    
 ``npm install``    
